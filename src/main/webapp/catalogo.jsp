@@ -18,9 +18,10 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
-							<h3>Catálogo</h3>
+						
 						</div>
 					</div>
+					<h4>${ titulo }</h4>
 					<p>Produtos a serem exibidos</p>
 				</div>
 			</div>
