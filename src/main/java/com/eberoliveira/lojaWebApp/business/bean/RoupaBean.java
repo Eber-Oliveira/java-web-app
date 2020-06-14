@@ -2,6 +2,7 @@ package com.eberoliveira.lojaWebApp.business.bean;
 
 public class RoupaBean {
 	private Integer codigo;
+	private String categoria;
 	private String nome;
 	private Float preco;
 	
@@ -23,5 +24,11 @@ public class RoupaBean {
 	}
 	public void setPreco(Float preco) {
 		this.preco = preco;
+	}
+	public String getCategoria() {
+		return categoria;
+	}
+	public void setCategoria(String categoria) {
+		this.categoria = categoria;
 	}
 }
